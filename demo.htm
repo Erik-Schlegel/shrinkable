@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<style>
+			html, body { font-family: arial; height: 100%; margin: 0; padding: 0; }
+			h1 { text-align: center; }
+			section { width: 100%; max-width: 1000px; margin:0 auto; display: flex; }
+			div { width: 50%; background-color: blue; color: white; padding-left: 10px; }
+			#two { position: relative; top: 300px; }
+		</style>
+
+	</head>
+	<body>
+
+		<h1>Shrinkable.js Demonstration</h1>
+
+		<section>
+
+			<div>
+				<h2>Instructions:</h2>
+				<p>Shrink your browser width to small form factor proportions.</p>
+			</div>
+			<div id="two">
+				<h2>Observe:</h2>
+				<p>The elements here shrink fluidly as though they were a part of an image being scaled down.</p>
+				<p>No css media queries were used the making of this page.</p>
+			</div>
+
+		</section>
+
+		<script src="shrinkable.js"></script>
+		<script>
+			new Shrinkable(document.querySelector('section'), 1000, 1).Enable();
+		</script>
+
+	</body>
+
+</html>

@@ -1,6 +1,13 @@
+/*!
+*	@Author: 	Erik Schlegel
+*	@Ver: 		1.0
+*	@GitHub: 	https://github.com/Erik-Schlegel/shrinkable/new/master
+*	@Site: 		erikschlegel.io
+*/
+
 /*
 Intent:
-	Provides a performant method for auto-scaling css values in relation to an specified parent element's scale.
+	Provide a performant method for auto-scaling css values in relation to an specified parent element's scale.
 	--Typically used in responsive web design where elements are sized using percentages and max / min width.
 */
 
